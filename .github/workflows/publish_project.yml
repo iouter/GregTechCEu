@@ -2,6 +2,7 @@
 name: Publish Project
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+' # any SemVer tag, e.g. v1.2.3
